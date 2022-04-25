@@ -1,4 +1,4 @@
-# rick-morty
+# get data
 
 ## Project setup
 ```
