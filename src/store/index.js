@@ -13,6 +13,7 @@ export default createStore({
     },
   },
   actions: {
+    //load data from json file
     getCharacters ({ commit }) {
       axios.get("http://localhost:3000/user")
           .then(response => commit('setCharacters', response.data))

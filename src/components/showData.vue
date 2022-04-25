@@ -18,9 +18,9 @@ import { mapState } from 'vuex';
 export default {
     name: "showData",
      mounted () {
-        this.$store.dispatch('getCharacters')
+        this.$store.dispatch('getCharacters') //call the actions using dispatch
     },
-    computed: mapState([
+    computed: mapState([  //access to state
         'items'
     ]),
  }
